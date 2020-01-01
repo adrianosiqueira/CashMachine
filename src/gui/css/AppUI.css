@@ -1,0 +1,110 @@
+@font-face {
+    src: url("/extra/font/BlackAndWhitePicture-Regular.ttf");
+}
+
+@font-face {
+    src: url("/extra/font/Bonbon-Regular.ttf");
+}
+
+@font-face {
+    src: url("/extra/font/Cousine-Regular.ttf");
+}
+
+@font-face {
+    src: url("/extra/font/Ewert-Regular.ttf");
+}
+
+.button {
+    -fx-font: normal normal 50 "Black and White Picture";
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 100;
+
+    -fx-border-color: transparent;
+    -fx-border-radius: 100;
+}
+
+.button:armed {
+    -fx-background-color: rgba(0, 255, 0, .5);
+    -fx-border-color: rgb(0, 150, 0);
+}
+
+.button:hover {
+    -fx-border-color: rgb(0, 150, 0);
+}
+
+.field-value {
+    -fx-font: normal normal 25 "Bonbon";
+    -fx-alignment: center;
+
+    -fx-background-radius: 20;
+
+    -fx-border-color: rgb(0, 150, 0);
+    -fx-border-radius: 20;
+    -fx-border-width: 2;
+}
+
+.field-value#invalid {
+    -fx-border-color: rgb(150, 0, 0);
+}
+
+.label-note {
+    -fx-font: normal normal 30 "Cousine";
+    -fx-text-fill: rgb(0, 0, 0);
+}
+
+.label-title {
+    -fx-font: normal normal 75 "Ewert";
+}
+
+.label-value {
+    -fx-font: normal normal 30 "Liberation Serif";
+}
+
+.pane-buttons {
+    -fx-alignment: center;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+
+    -fx-background-color: rgba(255, 255, 255, .8);
+    -fx-background-radius: 50;
+
+    -fx-border-color: rgb(0, 150, 0);
+    -fx-border-radius: 50;
+    -fx-border-width: 2;
+}
+
+.pane-content {
+    -fx-alignment: center;
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+    -fx-padding: 20;
+
+    -fx-background-image: url("/extra/image/dollar.jpg");
+    -fx-background-size: cover;
+}
+
+.pane-input {
+    -fx-alignment: top-left;
+    -fx-spacing: 5;
+}
+
+.pane-notes {
+    -fx-alignment: center-right;
+    -fx-spacing: 20;
+    -fx-padding: 0 20;
+
+    -fx-max-height: 413;
+
+    -fx-background-color: rgba(255, 255, 255, .8);
+    -fx-background-radius: 50;
+
+    -fx-border-color: rgb(0, 150, 0);
+    -fx-border-radius: 50;
+    -fx-border-width: 2;
+}
+
+.separator {
+    -fx-background-color: rgb(0, 0, 0);
+    -fx-border-color: rgb(0, 0, 0);
+}
